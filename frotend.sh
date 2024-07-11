@@ -52,3 +52,4 @@ VALIDATE $? "Copied expense conf"
 
 systemctl restart nginx &>>$LOGFILE
 VALIDATE $? "Restarting nginx"
+
